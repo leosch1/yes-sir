@@ -94,7 +94,7 @@ def main(goal_description):
             break
         print(f"🤖 Executing: {next_command}")
         current_output = execute_command(next_command)
-        print(f"🖥️ Command Output: {current_output}")
+        print(f"🖥️  Command Output: {current_output}")
         last_command = next_command
 
 if __name__ == "__main__":
